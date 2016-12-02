@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Space Monkey Black Jack</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+        <script type="text/javascript" src="jquery.js"></script>
+        <script type="text/javascript" src="game.js"></script>
+    </head>
+
+
+	<body onload="PlayerName()">
+
+		<div id="container">
+			<div class="header">
+			<center>
+				<img src="images/space_monkey.gif" alt="space monkey" />
+			</center>
+			</div>
+			<div class="deal">
+				<button class="btn btn-danger btn-lg" id="deal">RESET</button>
+			</div>
+			<div class="monkey">
+				<img onclick="danceMonkey()" src="images/standing_monkey.gif" id="standingMonkey" />
+			</div>
+			<div class="blurb">
+
+				<img src="images/blurb.jpg" align="right" id="blurb"/>
+			</div>
+
+			<div id="main">
+				<div id="game">
+					<p><button class="btn btn-danger btn-lg" id="hit" align="top">HIT</button></p>
+
+					<button class="btn btn-danger btn-lg" id="stay" align="top">STAY</button>
+
+				</div>
+
+				<div id="table">
+
+					<div id="dealer">
+						<h4 id="dealerName">Dealer</h4>
+							<p></p>
+							<p id="dealer_2"></p>
+					</div>
+		
+					<div id="player">
+						<h4 id="playerName">Player:</h4>
+						    <p></p>
+						    <p></p>
+					</div>
+				</div>
+
+<!-- 				<div id="message">
+
+					<h2>Result:</h2>
+					<textarea id="result"></textarea>
+				</div> -->
+
+			</div> 
+
+		</div>
+
+	</body>
+
+</html>

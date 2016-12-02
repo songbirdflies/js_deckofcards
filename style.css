@@ -1,0 +1,102 @@
+*{
+ margin: 0px;
+ padding: 0px;
+}
+
+#container {
+ width: 1450px;
+ background-color: #ffffff;
+ margin: 0px auto;
+}
+
+.header {
+	width: 1450;
+	height: 100px;
+	margin: 0px auto;
+	display: block;
+}
+
+.deal {
+	width: 520px;
+	text-align: right;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+.monkey {
+	width: 314px;
+	height: 190px;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+.blurb {
+	width: 300px;
+	height: 190px;
+	padding-top: 40px;
+	margin: 0px auto;
+	display: inline-block;
+}
+
+#main {
+	width: 1400px;
+	height: 536px;
+	margin: 0px auto;
+	display: block;
+}
+
+#game {
+	width: 145px;
+	height: 250px;
+	display: inline-block;
+	text-align: right;
+	vertical-align: bottom;
+}
+
+#table {
+	width: 1075px;
+	height: 536px;
+	background-image: url("images/blackjack_table.jpg");
+	background-repeat: no-repeat;
+	margin: 0px auto;
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	padding-top: 30px;
+}
+
+#dealer {
+	width: 800px;
+	height: 180px;
+	margin: 0px auto;
+}
+
+
+h4#dealerName {
+	color:white;
+}
+
+p#aftercard {
+	padding-bottom: 60px;
+}
+
+h4#playerName{
+	color:white;
+}
+
+#message {
+	width: 160px;
+	height: 500px;
+	margin: 0px auto;
+	display: inline-block;
+	text-align: left;
+	vertical-align: top;
+}
+
+#dealer p, #player p {
+  width: 73px;
+  height: 98px;
+  display: inline-block;
+  vertical-align: top;
+  border: 1px solid black;
+}
